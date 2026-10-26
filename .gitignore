@@ -1,0 +1,49 @@
+# Maven build artifacts
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Local persistent database & temporary data
+data/
+*.db
+*.mv.db
+*.trace.db
+
+# Backup folders & archives
+_old_spring_boot_backup/
+*.zip
+
+# Local test & utility scripts
+test_server.ps1
+verify_chitchat.py
+verify_persistence.py
+classpath.txt
+cookies.txt
+*.log
+
+# Uploads directory
+uploads/
+
+# Local custom Maven wrappers (system-specific absolute paths)
+mvn.cmd
+mvnw.cmd
+
+# IDE & Editor files
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS & Environment
+Thumbs.db
+Desktop.ini
+.DS_Store

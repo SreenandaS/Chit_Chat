@@ -1,10 +1,10 @@
-# ChitChat – Social Networking Platform 💬📸
+# ChitChat – Social Networking Platform 
 
 A complete, fully functional social networking mini project built with **Java Servlets, JSP, JDBC, MySQL, HTML5, CSS3, JavaScript, and Bootstrap 5**, deployable on **Apache Tomcat**.
 
 ---
 
-## 🌟 Features Overview
+##  Features Overview
 
 1. **User Authentication & Session Security:**
    - Registration with input validation and uniqueness checks (username, email).
@@ -55,7 +55,7 @@ A complete, fully functional social networking mini project built with **Java Se
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ChitChat/
@@ -124,7 +124,7 @@ ChitChat/
 
 ---
 
-## 🗄️ Database Configuration & Setup
+##  Database Configuration & Setup
 
 ### 1. MySQL Setup
 1. Open your MySQL client (MySQL Workbench, phpMyAdmin, or Command Line).
@@ -145,7 +145,7 @@ If MySQL is not installed or not currently running, `DBUtil.java` automatically 
 
 ---
 
-## 🚀 How to Run the Application
+##  How to Run the Application
 
 ### Option A: 1-Click Run via Maven (Recommended)
 You can run the application directly from the project directory:
@@ -155,7 +155,7 @@ mvn compile exec:java
 ```
 
 Once started, open your browser and navigate to:
-👉 **`http://localhost:8080/`** (or `http://localhost:8080/login`)
+ **`http://localhost:8080/`** (or `http://localhost:8080/login`)
 
 ---
 
@@ -174,11 +174,11 @@ Once started, open your browser and navigate to:
    ```
 4. Start Tomcat (`bin/startup.bat` on Windows or `bin/startup.sh` on Linux/macOS).
 5. Open your browser:
-   👉 **`http://localhost:8080/chitchat/`**
+    **`http://localhost:8080/chitchat/`**
 
 ---
 
-## 🔑 Demo Test Accounts
+## Demo Test Accounts
 
 The database comes pre-seeded with sample users, posts, messages, and likes for instant evaluation:
 
@@ -193,7 +193,7 @@ The database comes pre-seeded with sample users, posts, messages, and likes for 
 
 ---
 
-## 🧪 Automated End-to-End Test Suite
+## Automated End-to-End Test Suite
 
 An automated verification test suite is included in `verify_chitchat.py`. It tests all 13 core requirements end-to-end:
 ```bash
